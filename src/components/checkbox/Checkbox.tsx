@@ -1,4 +1,5 @@
 import React from "react";
+import "./Checkbox.css";
 
 interface CheckboxProps {}
 
@@ -11,11 +12,11 @@ const Checkbox: React.FC<CheckboxProps> = () => {
       </div>
       <div className="checkbox-container">
         <input type="checkbox" id="cb2" />
-        <label htmlFor="cb2">Checkbox 1</label>
+        <label htmlFor="cb2">Checkbox 2</label>
       </div>
       <div className="checkbox-container">
         <input type="checkbox" id="cb2" />
-        <label htmlFor="cb3">Checkbox 1</label>
+        <label htmlFor="cb3">Checkbox 3</label>
       </div>
     </section>
   );
