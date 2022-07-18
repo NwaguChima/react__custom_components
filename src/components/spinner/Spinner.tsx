@@ -1,10 +1,11 @@
 import React from "react";
+import "./Spinner.css";
 
 interface SpinnerProps {}
 
 export const Spinner: React.FC<SpinnerProps> = () => {
   return (
-    <div>
+    <div className="spinner">
       Loading...
       <div className="spinner-sector spinner-sector-red"></div>
       <div className="spinner-sector spinner-sector-blue"></div>
