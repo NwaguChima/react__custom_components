@@ -6,6 +6,9 @@
 .checkbox-container label {
   cursor: pointer;
   display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkbox-container input[type="checkbox"] {
@@ -30,4 +33,22 @@
 .checkbox-container label:hover::before,
 .checkbox-container input[type="checkbox"]:hover + label::before {
   background-color: #35e07d;
+}
+
+.checkbox-container input[type="checkbox"]:focus + label::before {
+  box-shadow: 0 0 20px black;
+}
+
+.checkbox-container input[type="checkbox"]:checked + label::before {
+  content: "\002714";
+  background-color: #27ae60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.checkbox-container input[type="checkbox"]:disabled + label::before {
+  background-color: #ccc;
+  border-color: #999;
 }

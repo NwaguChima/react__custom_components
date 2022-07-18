@@ -10,10 +10,12 @@ const Checkbox: React.FC<CheckboxProps> = () => {
         <input type="checkbox" id="cb1" />
         <label htmlFor="cb1">Checkbox 1</label>
       </div>
+      <br />
       <div className="checkbox-container">
         <input type="checkbox" id="cb2" />
         <label htmlFor="cb2">Checkbox 2</label>
       </div>
+      <br />
       <div className="checkbox-container">
         <input type="checkbox" id="cb2" />
         <label htmlFor="cb3">Checkbox 3</label>
