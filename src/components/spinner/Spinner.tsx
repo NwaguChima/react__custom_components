@@ -3,7 +3,7 @@ import "./Spinner.css";
 
 interface SpinnerProps {}
 
-export const Spinner: React.FC<SpinnerProps> = () => {
+const Spinner: React.FC<SpinnerProps> = () => {
   return (
     <div className="spinner">
       Loading...
@@ -13,3 +13,5 @@ export const Spinner: React.FC<SpinnerProps> = () => {
     </div>
   );
 };
+
+export default Spinner;

@@ -1,9 +1,24 @@
-import React from 'react'
+import React from "react";
 
-interface CheckboxProps {
+interface CheckboxProps {}
 
-}
+const Checkbox: React.FC<CheckboxProps> = () => {
+  return (
+    <section>
+      <div className="checkbox-container">
+        <input type="checkbox" id="cb1" />
+        <label htmlFor="cb1">Checkbox 1</label>
+      </div>
+      <div className="checkbox-container">
+        <input type="checkbox" id="cb2" />
+        <label htmlFor="cb2">Checkbox 1</label>
+      </div>
+      <div className="checkbox-container">
+        <input type="checkbox" id="cb2" />
+        <label htmlFor="cb3">Checkbox 1</label>
+      </div>
+    </section>
+  );
+};
 
-export const Checkbox: React.FC<CheckboxProps> = ({}) => {
-        return ();
-}
+export default Checkbox;
